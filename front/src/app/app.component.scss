@@ -1,3 +1,22 @@
+main {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: inherit;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 3rem;
+}
+
 
 :host {
   --bright-blue: oklch(51.01% 0.274 263.83);
@@ -52,28 +71,13 @@ p {
   color: var(--gray-700);
 }
 
-main {
-  width: 100%;
-  min-height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  box-sizing: inherit;
-  position: relative;
-}
+
 
 .angular-logo {
   max-width: 9.2rem;
 }
 
-.content {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  max-width: 700px;
-  margin-bottom: 3rem;
-}
+
 
 .content h1 {
   margin-top: 1.75rem;
@@ -97,6 +101,7 @@ main {
   gap: 1.25rem;
 }
 
+//te po boku po prawej to pill'e
 .pill {
   display: flex;
   align-items: center;
@@ -136,6 +141,8 @@ main {
 .pill-group svg {
   margin-inline-start: 0.25rem;
 }
+
+
 
 .social-links {
   display: flex;

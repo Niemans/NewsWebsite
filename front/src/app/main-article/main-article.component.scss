@@ -1,0 +1,29 @@
+.image-container {
+  position: relative; /* Aby umożliwić pozycjonowanie elementów wewnątrz */
+  display: inline-block; /* Dopasowanie kontenera do obrazka */
+  img {
+    display: block; /* Usuń odstępy wokół obrazka */
+    width: 100%; /* Dopasowanie obrazka do kontenera */
+  }
+}
+
+.info-box {
+  position: absolute; /* Nakładanie prostokąta na obrazek */
+  bottom: 0; /* Przyklejenie do dolnej krawędzi */
+  left: 0;
+  width: 100%; /* Dopasowanie szerokości do obrazka */
+  //padding: 10px; /* Wewnętrzne odstępy dla tekstu */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent); /* Gradient */
+  color: white; /* Kolor tekstu */
+  font-family: Arial, sans-serif; /* Czcionka */
+  font-size: 14px; /* Rozmiar czcionki */
+}
+
+.title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.author, .date, .description {
+  margin: 5px 0; /* Odstępy między liniami */
+}
